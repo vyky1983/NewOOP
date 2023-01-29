@@ -20,5 +20,7 @@ public class main {
         person3.age=5;
         person3.weight=25.25;
 
+        System.out.println(" Средний возраст составляет --->"+(person.age+ person1.age+ person2.age+ person3.age)/4);
+
     }
 }
