@@ -9,10 +9,8 @@ public class Box {
         this.length=length;
     }
 
-    void getBox(double length, double weight, double height){
+    void getVolume(double length, double weight, double height){
         System.out.println("Resulted --> "+length*weight*height);
     }
-//void  showBox(){
-//    System.out.println(getBox());
-//}
+
 }
