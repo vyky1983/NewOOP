@@ -7,7 +7,17 @@ public class Box {
         this.weight=weight;
         this.height=height;
         this.length=length;
+    }
+    Box(){
+        this.weight=weight;
+        this.height=height;
+        this.length=length;
+    }
 
+    Box(double size){
+        this.length=size;
+        this.height=size;
+        this.weight=size;
     }
 
     void setDimens(double length, double weight, double height){
@@ -18,13 +28,10 @@ public class Box {
 
     }
 
-    Box(){
-        this.weight=weight;
-        this.height=height;
+     void getVolume(){
         this.length=length;
-    }
-
-    void getVolume(double length, double weight, double height){
+        this.height=height;
+        this.weight=weight;
         System.out.println("Resulted --> "+length*weight*height);
     }
 
