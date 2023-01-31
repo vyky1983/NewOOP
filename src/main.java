@@ -1,9 +1,14 @@
 public class main {
     public static void main(String[] args) {
-      Monster monster = new Monster();
-      monster.voce(5);
-        System.out.println();
-      Monster monster1=new Monster();
-      monster1.voce(2, "Aaa......");
+        Box current =new Box(80);
+        Box another =new Box(current);
+        another.setDimens(20,30,5);
+        current.setDimens(50,50,50 );
+        current.showVolume();
+        another.showVolume();
+
+
+
+
     }
 }
