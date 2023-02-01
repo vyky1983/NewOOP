@@ -78,4 +78,12 @@ public class Box {
 
     }
 
+    Box copy(){
+        return new Box(this.length, this.height, this.width);
+    }
+
+    Box increase(){
+        return new Box(this.length*2, this.height*2, this.width*2);
+    }
+
 }
